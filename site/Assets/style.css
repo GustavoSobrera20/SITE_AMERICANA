@@ -1,0 +1,108 @@
+body {
+    font-family: 'Passero One', sans-serif; /* Aplica a fonte ao corpo */
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.logo {
+    width: 100px; 
+    position: absolute; 
+    top: 25%;
+    left: 10%;
+    transform: translate(-20%, -20%); 
+    width: 180px;
+}
+
+.menu-principal ul {  
+    list-style: none; /* Remove os marcadores padrões de lista */
+}
+
+.menu div {
+    position: absolute;
+    font-family: 'Passero One', sans-serif; /* Aplica a fonte ao menu */
+}
+
+.menu .turismo {
+    left: 1085px;
+    top: 175px;
+    font-size: 37px;
+}
+
+.menu .parceiros {
+    left: 1235px;
+    top: 175px;
+    font-size: 37px;
+}
+
+.menu .contato {
+    left: 1422px;
+    top: 175px;
+    font-size: 37px;
+}
+
+.menu-principal ul li a {  
+    color: black; /* Define a cor do texto como preta */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    text-transform: uppercase; /* Converte o texto para maiúsculo */
+    font-size: 20px;
+    margin: 25px;
+}
+
+.menu-principal {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-between; /* Espaço entre logo e menu */
+    align-items: center; /* Alinha verticalmente */
+    padding: 20px; /* Ajuste conforme necessário */
+}
+
+#pagina-home {
+    min-height: 504px; /* Define altura mínima para a seção */
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../Assets/Fotos/Banner_principal.png); 
+    background-color: darkgrey;
+    background-size: cover; /* Cobre toda a área com a imagem */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+a {
+    color: black;
+}
+
+.banner-principal {
+    display: flex; /* Habilita layout flexível para os banners */
+    justify-content: space-around; /* Distribui os itens uniformemente */
+    margin: 20px; /* Margem ao redor da seção */
+}
+
+.TURISMO {
+    text-align: center;
+    font-family: 'Passero One', sans-serif; /* Aplica a fonte ao título */
+    font-size: 32px;
+    text-shadow: 
+    -1px -1px 0 #B6B4F4,  /* Borda vermelha */
+     1px -1px 0 #B6B4F4,
+    -1px -1px 0 #B6B4F4,
+    1px -1px 0 #B6B4F4; /* Adicione outras cores conforme desejado */
+    margin-top: 6px;
+}
+.body {
+    background-color: black;
+}
+.banner-principal{
+    background-color: #EFECEC;
+}
